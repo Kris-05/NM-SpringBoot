@@ -2,7 +2,7 @@
 
 A Spring Boot-based web application for managing customer orders securely using JWT authentication. This project uses SQLite as the backend database and supports RESTful APIs for CRUD operations.
 
-## 🧰 Tech Stack
+## Tech Stack
 - **Java 17**
 - **Spring Boot 3.4.3**
 - **Spring Data JPA**
@@ -11,7 +11,7 @@ A Spring Boot-based web application for managing customer orders securely using 
 - **SQLite**
 - **Lombok**
 
-## 📦 Features
+## Features
 
 - Customer and order management APIs
 - Input validation with Hibernate Validator
