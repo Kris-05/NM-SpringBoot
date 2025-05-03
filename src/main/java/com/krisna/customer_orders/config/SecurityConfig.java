@@ -21,8 +21,10 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
+    @SuppressWarnings("unused")
     @Autowired
     private UserService userService;
+    @SuppressWarnings("unused")
     @Autowired
     private JwtUtil jwtUtil;
     @Autowired

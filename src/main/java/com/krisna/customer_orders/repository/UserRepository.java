@@ -10,6 +10,7 @@ import java.util.Optional;
 /**
  * @author Krisna VJ
  */
+@SuppressWarnings("unused")
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
     Optional<User> findByUsername(String username);

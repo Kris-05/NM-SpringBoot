@@ -43,6 +43,7 @@ public class AuthController {
     public ResponseEntity<?> login(@RequestBody AuthRequest request) {
         log.info("login method invoked AuthRequest:{}", request.toString());
         try {
+            @SuppressWarnings("unused")
             Authentication authentication = authenticationManager.authenticate(
                     new UsernamePasswordAuthenticationToken(request.getUsername(), request.getPassword()));
 

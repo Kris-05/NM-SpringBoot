@@ -15,6 +15,7 @@ import java.util.Optional;
 /**
  * @author Krisna VJ
  */
+@SuppressWarnings("unused")
 @Service
 public class OrderService {
 
