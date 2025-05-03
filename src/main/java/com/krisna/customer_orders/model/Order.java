@@ -11,7 +11,7 @@ import lombok.*;
 /**
  * @author Krisna VJ
  */
-
+@SuppressWarnings("unused")
 @Entity
 @Table(name = "orders")
 @Data

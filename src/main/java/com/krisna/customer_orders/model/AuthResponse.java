@@ -8,7 +8,7 @@ import lombok.Setter;
 /**
  * @author Krisna VJ
  */
-
+@SuppressWarnings("unused")
 @Getter
 @Setter
 public class AuthResponse {
